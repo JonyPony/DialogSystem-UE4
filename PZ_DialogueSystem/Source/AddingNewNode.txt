@@ -1,0 +1,8 @@
+0) Завести style в PZ_DialogueEditorStyle
+1) Унаследоваться от BaseNode(логика ноды в редакторе). Папка DialogueEditor/Nodes.
+	SNodeBase - графическая часть ноды
+	RNodeBase - скомпилированная версия ноды
+2)Подклучить соответствующие инклюды в PZ_EdNodesInclude and PZ_SNodesInclude and PZ_RNodesInclude
+3)PZ_DialogueNodesFactory. Сделать сопоставление S и ED
+4) EdGraphSchema. Добавить ноду в GetGraphContextActions
+5) в PZ_DialogueContext Написать вызов и обработку в runtime если что-то уникальное
